@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- first section  -->
+      <section class="p-4 container">
+        <h1 class="font-bold text-2xl text-right">السيارات</h1>
+      </section>
+      <!-- second section -->
+      <section
+        class="bg-green-900 px-4 py-8 rounded-3xl flex flex-col justify-center items-center md:items-start m-4"
+      >
+        <!-- img container -->
+        <div class="bg-white p-4 w-28 rounded-xl justify-center">
+          <img
+            class="size-20"
+            src="./Media/شعار_الخطوط_السعودية.png"
+            alt="شعار الخطوط السعودية."
+          />
+        </div>
+        <!-- header text -->
+        <p class="text-white font-bold text-2xl text-center mt-6">
+          خصم حتى 25% على رحلات الخطوط السعودية
+        </p>
+
+        <!-- the details button -->
+        <div class="container">
+          <div
+            class="bg-white rounded-full container h-12 mt-6 flex justify-center items-center"
+          >
+            <p class="text-right font-normal text-base mx-1">التفاصيل</p>
+            <svg
+              class=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M9 19L10.41 17.59L5.83 13H22V11H5.83L10.42 6.41L9 5L2 12L9 19Z"
+                fill="#0F0F0F"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
